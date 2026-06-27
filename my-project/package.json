@@ -1,0 +1,21 @@
+{
+  "name": "my-agent",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.ts"
+  },
+  "type": "module",
+  "module": "es2022",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^1.1.48",
+    "@langchain/langgraph": "^1.3.7",
+    "@langchain/openai": "^1.4.7",
+    "langchain": "^1.4.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2"
+  }
+}

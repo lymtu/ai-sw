@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Desktop Agent">
+  <defs>
+    <linearGradient id="app-bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2a3140"/>
+      <stop offset="1" stop-color="#1a1d24"/>
+    </linearGradient>
+    <linearGradient id="app-accent" x1="20" y1="18" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7ab3de"/>
+      <stop offset="1" stop-color="#5b9fd4"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#app-bg)"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" stroke="#3d4556" stroke-width="1"/>
+  <!-- Agent node + orbit -->
+  <circle cx="32" cy="32" r="5" fill="url(#app-accent)"/>
+  <circle cx="32" cy="32" r="14" stroke="url(#app-accent)" stroke-width="1.5" stroke-opacity="0.45" stroke-dasharray="3 4"/>
+  <path d="M32 14v6M32 44v6M14 32h6M44 32h6" stroke="#5b9fd4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.6"/>
+  <!-- Stylized A -->
+  <path d="M26 42 L32 22 L38 42 M28.5 36 H35.5" stroke="#eef1f6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
